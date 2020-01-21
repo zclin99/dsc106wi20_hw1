@@ -1,19 +1,26 @@
 /* fonts */
-* { padding: 0; margin: 4px; }
+* { 
+    padding: 0;
+    margin: 4px; 
+}
 
 h1 {
     font-family: 'Paytone One', sans-serif;
 }
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 95%;
 }
+
 h3 {
     font-family: 'Paytone One', sans-serif;
 }
+
 p {
     font-family: 'Montserrat', sans-serif;
 }
+
 .longBreak {
     content: "";
     margin: 3.5em;
@@ -30,7 +37,7 @@ p {
 }
 
 header img {
-    width: 150px;
+    width: 140px;
     height: 50px;
 }
 
@@ -71,19 +78,23 @@ header img {
 /* charts */
 * {
     box-sizing: border-box;
-    }
+}
+
 .Charts img {
     object-fit: fill;
 }
+
 .row {
     display: flex;
-    }
+}
+
 .column {
     margin-left: 1%;
     flex: 33.33%;
     padding: 0px;
     align-items: center;
 }
+
 iframe {
     margin-bottom: -7%;
     border: none;
@@ -91,6 +102,7 @@ iframe {
     width:120%; 
     height:110%;
 }
+
 figcaption {
     display: block;
     height: 8%;
@@ -98,15 +110,16 @@ figcaption {
     text-align: center;
     color:#4e4d4e;
     margin-right: 15%;
-    padding: 0px;
-    border-bottom: none;
 }
+
 .pie {
     width: 85%;
 }
+
 .bar {
     width: 80%;
 }
+
 a {
     text-align: center;
 }
@@ -116,25 +129,31 @@ a {
     padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .boldText {
     font-weight: bolder;
 }
+
 #colored {
     background-color: lightgrey;
 }
+
 .staticTable {
     margin-left:12.5%; 
     margin-right:12.5%;
     width: 75%;
     border: 2px solid black;
 }
+
 .statsTable td, th, tr {
     border: 1px solid black;
     text-align: center;
 }
+
 .greyCell {
     background-color: lightgrey;
 }
+
 .whiteCell {
     background-color: white;
 }
@@ -148,21 +167,26 @@ dialog h3 {
 .orderText {
     padding-left: 10px;
 }
+
 fieldset {
     border : none;
 }
+
 .paymentTypes{
     height: 80px;
     width: 80px;
     margin-left: -5px;
 }
+
 details {
     padding-bottom: 20px;
 }
+
 summary {
     padding-bottom: 5px;
     font-family: 'Montserrat', sans-serif;
 }
+
 button {
     border-radius:0px;
     font-size: 14px;
@@ -175,6 +199,7 @@ ul {
     margin-top: 20px;
     margin-bottom: 15px;
 }
+
 .disclaimer {
     margin-bottom: 1em;
 }
