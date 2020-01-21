@@ -5,7 +5,7 @@ h1 {
     font-family: 'Paytone One', sans-serif;
 }
 h2 {
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 95%;
 }
 h3 {
@@ -16,7 +16,7 @@ p {
 }
 .longBreak {
     content: "";
-    margin: 5em;
+    margin: 3.5em;
     display: block;
     font-size: 100%;
 }
@@ -52,6 +52,7 @@ header img {
 
 .blue {
     color: blue;
+    font-size: x-large;
 }
 
 .item {
@@ -84,7 +85,7 @@ header img {
     align-items: center;
 }
 iframe {
-    margin-bottom: 0%;
+    margin-bottom: -7%;
     border: none;
     margin-left: -10%;
     width:120%; 
@@ -105,6 +106,9 @@ figcaption {
 }
 .bar {
     width: 80%;
+}
+a {
+    text-align: center;
 }
 
 /* statsTable */
