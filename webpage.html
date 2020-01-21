@@ -50,23 +50,26 @@
                 <div class="row">
                     <div class="column">
                         <figure>
-                            <figcaption text-align = "center"><h2>Total Sales Breakdown</h2></figcaption>
+                            <figcaption><h2>Total Sales Breakdown</h2></figcaption>
                             <img class="pie" src="resources/images/pie.png" alt="pieChart">
                         </figure>  
                     </div>
                     <div class="column">
                         <figure>
-                            <figcaption text-align = "center"><h2>Sales Per Day</h2></figcaption>
+                            <figcaption><h2>Sales Per Day</h2></figcaption>
                             <img class="bar" src="resources/images/bar.png" alt="barChart">
                         </figure> 
                     </div>
                     <div class="column">
                         <iframe src="https://app.zingsoft.com/demos/view/DK4RG3XN"></iframe>
-                        <figcaption>
-                            <a href="https://app.zingsoft.com/demos/view/DK4RG3XN">
-                                <p> Source </p>
-                            </a>
-                        </figcaption>
+                        <figure>
+                            <figcaption>
+                                <a href="https://app.zingsoft.com/demos/view/DK4RG3XN">
+                                    <p> Source </p>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        
                         <br>
                     </div>
                 </div>
@@ -134,7 +137,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td text-align="center" colspan="5"> 
+                            <td colspan="5"> 
                                 &copy; 2020 D&W Worldwide. 
                             </td>
                         </tr>
@@ -164,14 +167,15 @@
                             <br>
                             Total $<input name="total" type="number" value = 0.00>
                             <br>
-                            <label for="shipping">Shipping</label><input name="options" type="number" list="shipOptions">
+                            <label>Shipping</label>
+                            <input name="shipping" type="number" list="shipOptions">
                             <datalist id="shipOptions">
                                 <option value="Ground"></option>
                                 <option value="Air"></option>
                                 <option value="Doraemon's Dokodemo Door"></option>
                             </datalist>
                             <br>
-                            <label for="payment type">Payment</label>
+                            <label>Payment</label>
                             <br>
                             <select name="paymentTypes" size = "4">
                                 <option value="Visa">Visa</option>
